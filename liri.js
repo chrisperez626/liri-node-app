@@ -60,8 +60,16 @@ if(command === "movie-this"){
 if(command === "do-what-it-says"){
 	fs.readFile("random.txt", "utf8", function(error, data){
 		var dataArr = data.split(",");
-		value = dataArr[1];
-		command = dataArr[0];
+		spotify.search({ type: 'track', query: dataArr[1] })
+		  .then(function(response) {
+		    console.log(response.tracks.items[0].artists[0].name);
+		    console.log(response.tracks.items[0].name);
+		    console.log(response.tracks.items[0].preview_url);
+		    console.log(response.tracks.items[0].album.name);
+		  }).catch(function(err) {
+		    console.log(err);
+		  });
+		
 	})
 }
 
