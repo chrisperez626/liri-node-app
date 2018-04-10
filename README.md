@@ -1,6 +1,6 @@
 # liri-node-app
 
-##Welcome to LIRI!!!!
+## Welcome to LIRI!!!!
 
 This serves almost the same purpose as SIRI but rather than speak what you'd like it to do
 you can just type it in your commandline!
@@ -15,10 +15,10 @@ The following commands include:
 
 	*do-what-it-says
 
-##Important
+## Important
 
 whatever the user puts in the command line for the value needs to be in an array.
 
-##Conclusion
+## Conclusion
 
 have fun and play with the txt file to see what it can really do!
