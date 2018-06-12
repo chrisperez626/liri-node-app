@@ -17,7 +17,9 @@ The following commands include:
 
 ## Important
 
-whatever the user puts in the command line for the value needs to be in an array.
+whatever the user puts in the command line for the value needs to be in a string.
+
+Also API keys for twitter and spotify are required as they are not included upon cloning.
 
 ## Conclusion
 
